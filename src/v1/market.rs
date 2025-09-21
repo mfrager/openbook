@@ -177,7 +177,7 @@ impl MarketInfo for Market {
         let mut market = Self {
             program_id,
             coin_decimals: 9,
-            pc_decimals: 6,
+            pc_decimals: 9,
             coin_lot_size: 1_000_000,
             pc_lot_size: 1,
             quote_mint,
